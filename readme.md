@@ -10,7 +10,7 @@ This program was written for an Operating Systems course during my undergrad. Th
 ### Custom Commands
 - ```exit``` terminates the shell
 - ```gcd``` finds the greatest common divisor of either decimal or hexadecimal
--```b2d``` converts binary to decimal
+- ```b2d``` converts binary to decimal
 
 ## Tech Stack
 - C Programming language
