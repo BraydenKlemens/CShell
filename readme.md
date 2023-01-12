@@ -1,20 +1,25 @@
-Brayden Klemens
-1000487
-October 15, 2018
-CIS 3110 A2
+# C-Shell
 
+## About
+This program was written for an Operating Systems course during my undergrad. The purpose of this project is to implement a simple linux shell both built in commands and external custom commands.
 
-To run the Program:
+### Built in commands
+- The built in commands include all possible commands that are available in linux
+- Examples: ls, cd, pwd, ls -1 > foo, sort < inputfile (and so on)
 
+### Custom Commands
+- ```exit``` terminates the shell
+- ```gcd``` finds the greatest common divisor of either decimal or hexadecimal
+-```b2d``` converts binary to decimal
+
+## Tech Stack
+- C Programming language
+
+## Execution
+```
+cd CShell
 make
-./ish
-
-- The program should recognize commands which I implemented before forking the process
-- The program then calls the function which runs the commands such as: -gcd, args, other command
-- In gcd if anything is hex it converts to numbers
-- gcd can only handle the biggest integers
-- Args I tried implementing but failed on parsing the input
-- b2d converts binary to decimal
-
+make run
+```
 
 
