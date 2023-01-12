@@ -2,7 +2,7 @@
 Brayden Klemens 2019
 
 ## About
-This program was written for an Operating Systems course during my undergrad. The purpose of this project is to implement a simple linux shell both built in commands and external custom commands.
+The purpose of this project is to implement a simple linux shell both built in commands and external custom commands.
 
 ### Built in commands
 - The built in commands include all possible commands that are available in linux
